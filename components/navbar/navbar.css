@@ -1,0 +1,229 @@
+.navbar{
+    background-color: transparent;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    aling-items:center;
+    font-size: 1.2rem;
+    position:sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar.active{
+    background: linear-gradient(to left, #3e3d54, #151421);
+}
+
+.navbar-container{
+    display:flex;
+    justify-content: center;
+    aling-items:center;
+    height:80px;
+    max-width: 1500;
+}
+
+/*.navbar {
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    position: fixed !important;
+    transition: background-color 0.5s ease;
+    background-color: transparent !important;
+    top: 0;
+    display: block;
+}
+
+.logo {
+    cursor: pointer;
+    padding: 100px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+    font-family: Rapple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.dropdown a:hover {
+    color: gray;
+}
+
+.navbar ul div {
+    margin: 0 20px;
+}
+
+.navbar ul div::before {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: hsl(221, 70%, 46%);
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+    transition: 0.10 ease-out;
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: gray;
+}
+
+.dropdown-content .dropdown-content2 ul {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-content2:hover ul {
+    z-index: 10;
+    display: block;
+    color: gray;
+}
+
+.dropdown-content2 ul a {
+    color: black;
+    display: block;
+    right: -110px;
+    top: -50px;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.navbar::before {
+    background-color: white;
+    color: black;
+}
+
+.container-navbar {
+    width: 100%;
+    z-index: 10;
+    outline: none;
+    color: black;
+    margin-top: -320px;
+}
+
+.ml-auto {
+    margin-left: -20px !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+    font-family: Rapple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.dropdown a:hover {
+    color: gray;
+}
+
+.navbar ul div {
+    margin: 0 20px;
+}
+
+.navbar ul div::before {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: hsl(221, 70%, 46%);
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+    transition: 0.10 ease-out;
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: gray;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+.navbar ul li:hover::before {
+    width: 100%;
+}
+
+.bg-dark {
+    background-color: #212529!important
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important
+}
+
+.navbar-inner {
+    background-color: transparent;
+}
+
+body {
+    margin: 0;
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*/

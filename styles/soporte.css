@@ -1,0 +1,222 @@
+img {
+    border-radius: 80%;
+    margin-bottom: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.titulos {
+    margin-bottom: 1000px;
+    font-size: 80px;
+    color: white;
+    -ms-transform: skewY(4deg);
+    -webkit-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+
+.titulo {
+    margin-bottom: auto;
+    font-size: 80px;
+    color: rgb(0, 0, 84)
+}
+
+.tituloServer {
+    margin-bottom: 1000px;
+    font-size: 80px;
+    color: white;
+    -ms-transform: skewY(4deg);
+    -webkit-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+
+.tituloOfimatica {
+    margin-bottom: 1000px;
+    font-size: 80px;
+    color: white;
+    -ms-transform: skewY(4deg);
+    -webkit-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+
+.tituloFirewall {
+    margin-bottom: 1000px;
+    font-size: 80px;
+    color: white;
+    -ms-transform: skewY(4deg);
+    -webkit-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+
+.tituloCloud {
+    margin-bottom: 1000px;
+    font-size: 80px;
+    color: white;
+    -ms-transform: skewY(4deg);
+    -webkit-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+
+.tituloConection {
+    margin-bottom: 1000px;
+    font-size: 80px;
+    color: white;
+    -ms-transform: skewY(4deg);
+    -webkit-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+
+.tituloDeveloper {
+    margin-bottom: 1000px;
+    font-size: 80px;
+    color: white;
+    -ms-transform: skewY(4deg);
+    -webkit-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+
+.containerPage {
+    margin-bottom: 100px
+}
+
+.parrafo {
+    margin: 100px 0;
+    justify-content: center;
+    color: rgb(0, 0, 84)
+}
+
+.parrafo .parrafos {
+    color: white;
+    font-size: 36px;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    display: flex;
+    margin: 40px 150px;
+    color: rgb(0, 0, 84)
+}
+
+.container1 {
+    -ms-transform: skewY(-4deg);
+    -webkit-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    position: relative;
+    overflow: hidden;
+    background-image: url(../public/imagenes/soporte_informatico.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    height: 10px;
+    right: 0px;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.80;
+}
+
+.containerCloud {
+    -ms-transform: skewY(-4deg);
+    -webkit-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    position: relative;
+    overflow: hidden;
+    background-image: url(../public/imagenes/cloud.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    height: 10px;
+    right: 0px;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.80;
+}
+
+.containerConection {
+    -ms-transform: skewY(-4deg);
+    -webkit-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    position: relative;
+    overflow: hidden;
+    background-image: url(../public/imagenes/fibra-oscura.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    height: 10px;
+    right: 0px;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.80;
+}
+
+.containerDeveloper {
+    -ms-transform: skewY(-4deg);
+    -webkit-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    position: relative;
+    overflow: hidden;
+    background-image: url(../public/imagenes/codigo3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    height: 10px;
+    right: 0px;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.80;
+}
+
+.containerFirewall {
+    -ms-transform: skewY(-4deg);
+    -webkit-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    position: relative;
+    overflow: hidden;
+    background-image: url(../public/imagenes/firewall2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    height: 10px;
+    right: 0px;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.80;
+}
+
+.containerOfimatica {
+    -ms-transform: skewY(-4deg);
+    -webkit-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    position: relative;
+    overflow: hidden;
+    background-image: url(../public/imagenes/ofimatica.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    height: 10px;
+    right: 0px;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.80;
+}
+
+.containerServer {
+    -ms-transform: skewY(-4deg);
+    -webkit-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    position: relative;
+    overflow: hidden;
+    background-image: url(../public/imagenes/server.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    height: 10px;
+    right: 0px;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.80;
+}

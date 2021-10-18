@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.container-fluid {
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+}
+
+.separador {
+    margin: 2rem 0;
+}
+
+.title {
+    font-size: 100px;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.Timeless {
+    color: hsl(221, 70%, 46%);
+}

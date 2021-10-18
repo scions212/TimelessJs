@@ -1,0 +1,745 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"');
+body {
+    padding-bottom: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+hr {
+    height: 2px;
+    border-width: 2px;
+    color: rgb(0, 0, 84);
+    background-color: rgb(0, 0, 84);
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+
+/* Declare heights because of positioning of Image element */
+
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item>Image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+    border-radius: 50%;
+}
+
+
+/* MARKETING CONTENT
+  -------------------------------------------------- */
+
+
+/* Center align the text within the three columns below the carousel */
+
+.row .container-marketing {
+    margin: auto;
+}
+
+.row .col-lg-4 {
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: -120px;
+}
+
+.container-marketing h2 {
+    font-weight: 400;
+}
+
+
+/* rtl:begin:ignore */
+
+h2 {
+    color: hsl(221, 70%, 46%);
+    font-size: 1.5em;
+}
+
+b {
+    font-size: 60px;
+}
+
+.lead {
+    color: rgb(0, 0, 84)
+}
+
+h2 span {
+    color: rgb(0, 0, 84)
+}
+
+.col-lg-4 p {
+    color: hsl(221, 75%, 38%);
+    margin-right: .75rem;
+    margin-left: .75rem;
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+}
+
+
+/* rtl:end:ignore */
+
+
+/* Featurettes
+  ------------------------- */
+
+.featurette-divider {
+    margin: 2rem 0;
+    color: rgb(0, 0, 84);
+    /* Space out the Bootstrap <hr> more */
+    height: 2px;
+    border-width: 1px;
+    background: linear-gradient(to left, #3e3d54, #151421);
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+.container-card {
+    display: inline-flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: auto;
+    padding: 10px 10px;
+    margin-bottom: 100px !important;
+}
+
+@media (max-width: 100em) {
+    .container-card {
+        padding: 10px 1px;
+        margin-bottom: 400px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container-card {
+        padding: 10px 1px;
+        margin-bottom: 400px;
+    }
+}
+
+.card-body {
+    padding: 2rem 0 !important;
+}
+
+.card-text {
+    padding: 0.1rem 1rem;
+    font-size: 0.8rem;
+    margin-top: -160px;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.card-Image-top {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.card-Image-top:hover {
+    transform: scale(1.8);
+}
+
+.Principal {
+    align-items: center;
+    display: flex;
+    Height: 200px;
+}
+
+.Secundario {
+    margin: 0 auto;
+}
+
+.image {
+    border-radius: 10px;
+    width: 50%;
+    align-content: center;
+    margin: 10px auto;
+    display: block;
+}
+
+.modal-content {
+    width: 100% !important;
+    outline: none;
+    justify-content: center;
+    display: inline-flex;
+    bottom: -28px !important;
+    padding: 40px 100px;
+    box-shadow: 0 2px 14px 0 rgb(0 0 0 / 30%);
+    -webkit-animation: fadeIn 1.5s;
+    animation: fadeIn 1.5s;
+}
+
+.modal-body {
+    width: 100% !important;
+    outline: none;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: 20%;
+    padding: 300px;
+    width: 100%;
+    z-index: 10;
+    outline: none;
+    margin: 200px;
+}
+
+.container-btn {
+    margin-top: -300px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin-left: -15px;
+    z-index: 1;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.btn-light {
+    left: -100px;
+    top: -100px;
+    margin: 0 px;
+    width: 120px;
+    height: 120%;
+    z-index: 1;
+    border-left: 5px solid gray;
+}
+
+#logo3 {
+    background-image: url(../public/imagenes/codigo3.jpg)
+}
+
+#fondo {
+    top: 0px;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    backface-visibility: hidden;
+    animation: slideBg 30s linear infinite alternate 0s;
+    opacity: 0.9;
+    animation-timing-function: ease-in-out;
+    background-image: url(../public/imagenes/fibra-oscura.jpg);
+}
+
+#image1 {
+    background-image: url(../public/imagenes/Ciberseguridad.jpg);
+    width: 80%;
+    height: 40vh;
+    background-size: cover;
+    border-radius: 50px;
+    background-position: center center;
+    object-fit: cover;
+    align-content: center;
+}
+
+#image2 {
+    background-image: url(../public/imagenes/Email.jpg);
+    width: 80%;
+    height: 40vh;
+    background-size: cover;
+    border-radius: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-content: center;
+}
+
+#image3 {
+    background-image: url(../public/imagenes/ServiciosCloud.jpg);
+    width: 80%;
+    height: 40vh;
+    background-size: cover;
+    border-radius: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-content: center;
+}
+
+#image4 {
+    margin: auto;
+    width: 50%;
+    height: 30vh;
+    background-image: url(../public/imagenes/firewall.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    display: inline-block;
+    color: rgb(0, 0, 84);
+}
+
+#image5 {
+    margin: auto;
+    width: 50%;
+    height: 30vh;
+    background-image: url(../public/imagenes/fibra-oscura.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+    color: rgb(0, 0, 84);
+}
+
+#image6 {
+    margin: auto;
+    width: 50%;
+    height: 30vh;
+    background-image: url(../public/imagenes/server.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+    color: rgb(0, 0, 84);
+}
+
+#image1:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+#image2:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+#image3:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+#image4::after,
+#image4::before {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 3px;
+    background-color: currentColor;
+    top: 0.6em;
+    transform: scale(0);
+    transition: all 0.2s ease-in;
+    margin-top: 160px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 175px;
+}
+
+#image4:hover::before,
+#image4:hover::after {
+    transform: scale(1);
+}
+
+#image4::before {
+    left: -570px;
+    right: -40px;
+}
+
+#image5::after,
+#image5::before {
+    content: "";
+    position: absolute;
+    width: 401px;
+    height: 3px;
+    top: 0.6em;
+    background-color: rgb(0, 0, 84);
+    transform: scale(0);
+    transition: all 0.2s ease-in;
+    margin-top: 160px;
+    right: -400px;
+    border-radius: 100%;
+}
+
+#image5:hover::before,
+#image5:hover::after {
+    transform: scale(1);
+}
+
+#image5::before {}
+
+#image6::after,
+#image6::before {
+    content: "";
+    position: absolute;
+    width: 399px;
+    height: 3px;
+    top: 0.6em;
+    background-color: rgb(0, 0, 84);
+    transform: scale(0);
+    transition: all 0.2s ease-in;
+    margin-top: 160px;
+    left: -395px;
+    border-radius: 100%;
+}
+
+#image6:hover::before,
+#image6:hover::after {
+    transform: scale(1);
+}
+
+#image6::before {}
+
+@keyframes slideBg {
+    0% {
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        backface-visibility: hidden;
+        opacity: 0.9;
+        animation-timin-function: easy-in-out;
+        background-image: url(../public/imagenes/fibra-oscura.jpg);
+    }
+    25% {
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        backface-visibility: hidden;
+        opacity: 0.9;
+        animation-timin-function: easy-in-out;
+        background-image: url(../public/imagenes/client.jpg);
+    }
+    50% {
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        backface-visibility: hidden;
+        opacity: 0.9;
+        animation-timin-function: easy-in-out;
+        background-image: url(../public/imagenes/codigo3.jpg);
+    }
+    75% {
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        backface-visibility: hidden;
+        opacity: 0.9;
+        animation-timin-function: easy-in-out;
+        background-image: url(../public/imagenes/firewall2.jpg);
+    }
+    100% {
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        backface-visibility: hidden;
+        opacity: 0.9;
+        animation-timin-function: easy-in-out;
+        background-image: url(../public/imagenes/vision.jpg);
+    }
+}
+
+Image {
+    Justify-content: flex-end;
+}
+
+@media (max-width:575.98px) {
+    .services--icons .services-panel__item {
+        width: 49%;
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        min-height: 130px
+    }
+}
+
+.services--icons .services-panel__item a {
+    display: inline-block
+}
+
+.services--icons .services-panel__item .image {
+    height: 64px;
+    width: auto;
+    vertical-align: top
+}
+
+.services--icons .services-panel__item.active:before,
+.services--icons .services-panel__item:hover:before {
+    background-color: transparent
+}
+
+.services-panel__list {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+@media (max-width:991.98px) {
+    .services-panel__list {
+        margin-bottom: 30px
+    }
+}
+
+.services-panel__list:after,
+.services-panel__list:before {
+    content: "";
+    clear: both;
+    display: block
+}
+
+.services-panel__item {
+    display: inline-block;
+    width: 20%;
+    float: left;
+    position: relative;
+    transition: all .3s ease 0s;
+    padding-bottom: 15px;
+    min-height: 114px;
+    cursor: pointer
+}
+
+@media (max-width:991.98px) {
+    .services-panel__item {
+        min-height: 89px
+    }
+}
+
+@media (max-width:767.98px) {
+    .services-panel__item {
+        min-height: 100px;
+        width: 50%
+    }
+}
+
+.services-panel__item:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: transparent;
+    bottom: -30px;
+    left: 0
+}
+
+@media (max-width:991.98px) {
+    .services-panel__item:before {
+        bottom: -30px
+    }
+}
+
+@media (max-width:767.98px) {
+    .services-panel__item:before {
+        bottom: -90px;
+        display: none
+    }
+}
+
+.services-panel__item .image {
+    height: 64px;
+    width: auto
+}
+
+@media (max-width:991.98px) {
+    .services-panel__item .image {
+        height: 40px
+    }
+}
+
+.services-panel__item.active:before {
+    background-color: #151421
+}
+
+@media (max-width:991.98px) {
+    .services-panel__subtitle {
+        display: none
+    }
+}
+
+.services-panel__name {
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #656473;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+@media (max-width:1199.98px) {
+    .services-panel__name {
+        font-size: 13px
+    }
+}
+
+@media (max-width:991.98px) {
+    .services-panel__name {
+        bottom: 7px
+    }
+}
+
+@media (max-width:575.98px) {
+    .services-panel__name {
+        bottom: 10px
+    }
+}
+
+.services-panel__content {
+    padding: 40px 100px;
+    box-shadow: 0 2px 14px 0 rgba(0, 0, 0, .3);
+    display: block;
+    -webkit-animation: fadeIn 1.5s;
+    animation: fadeIn 1.5s
+}
+
+@media (max-width:991.98px) {
+    .services-panel__content {
+        padding: 40px
+    }
+}
+
+.services-panel__content--close {
+    display: none
+}
+
+.services-panel__title {
+    margin-bottom: 30px
+}
+
+@media (max-width:767.98px) {
+    .services-panel__title {
+        font-size: 30px
+    }
+}
+
+.services-panel__text {
+    margin-bottom: 30px
+}
+
+.services-panel__image {
+    display: block;
+    width: 200px
+}
+
+@media (max-width:991.98px) {
+    .services-panel__image {
+        display: none
+    }
+}
+
+.services-panel .button {
+    margin-right: 30px
+}
+
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 50%;
+}
+
+/*Tarjetas*/
+.overflow {
+  height: 50%;
+  overflow: hidden;
+}
+
+.overflow .card-img-top {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+
+.overflow .card-img-top:hover {
+  transform: scale(1.8);
+}
+
+#nprogress .bar {
+  background: #ff5367 !important;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #ffbb00;
+  border-left-color: #ffbb00;
+ 
+}
+
+/*footer*/
+.container-footer{
+    margin-top:10px;
+    margin-bottom:10px;
+}

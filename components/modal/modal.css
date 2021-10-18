@@ -1,0 +1,9 @@
+.Principal {
+    align-items: center;
+    display: flex;
+    Height: 200px;
+}
+
+.Secundario {
+    margin: 0 auto;
+}
