@@ -47,29 +47,68 @@ useEffect(() =>{
 //window.addEventListener('resize',showButton);
 
 const imageModal1 = () =>{
- if(document.getElementById("contentInfo01").addEventListener("click", function() {
-  })){
-    setNavbar(true)
-  }else{
-    setNavbar(false)
-    };
-  }};
+    document.getElementById("contentInfo01").addEventListener("click", function(){
+      var aprobacion;
+      if(aprobacion){
+        console.log("boton 1" + aprobacion)
+          setButton(true);
+        }else{
+          setButton(false)
+          aprobacion=false;
+      };
+    });
+  };
 
 const imageModal2 = () =>{
-  alert("Aqui se deberia ver la imagen 2")
- };
+  document.getElementById("contentInfo02").addEventListener("click", function(){
+      var aprobacion = true;
+      if(aprobacion == true){
+        console.log("boton 2" + aprobacion)
+          setButton(true);
+        }else{
+          setButton(false)
+          aprobacion=false;
+      };
+    });
+  };
+
  const imageModal3 = () =>{
-  alert("Aqui se deberia ver la imagen 3")
- };
+  document.getElementById("contentInfo03").addEventListener("click", function(){
+    var aprobacion = true;
+    if(aprobacion == true){
+        console.log("boton 3" + aprobacion)
+        setButton(true);
+        }else{
+          setButton(false)
+          aprobacion=false;
+      };
+    });
+  };
 
  const imageModal4 = () =>{
-  alert("Aqui se deberia ver la imagen 4")
- };
+  document.getElementById("contentInfo04").addEventListener("click", function(){
+    var aprobacion = true;
+    if(aprobacion == true){
+      console.log("boton 4" + aprobacion)
+        setButton(true);
+        }else{
+          aprobacion=false;
+          setButton(false)
+      };
+    });
+  };
 
  const imageModal5 = () =>{
-  alert("Aqui se deberia ver la imagen 5")
- };
- 
+  document.getElementById("contentInfo05").addEventListener("click", function(){
+    var aprobacion = true;
+    if(aprobacion == true){
+      console.log("boton 5" + aprobacion)
+        setButton(true);       
+        }else{
+          setButton(false)
+      };
+    });
+  };
 
   //window.addEventListener("scroll", changeBackground);
   return (
@@ -79,7 +118,9 @@ const imageModal2 = () =>{
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         />
-        <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
+        <Script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"/>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" />
         <Script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" />
         <link
@@ -93,7 +134,6 @@ const imageModal2 = () =>{
             <br />
             <div className="col-lg-4">
               <div id="image5"></div>
-
               <h2>Conexion</h2>
               <p>
                 <a className="button button--darken" href="#">
@@ -104,7 +144,6 @@ const imageModal2 = () =>{
 
             <div className="col-lg-4">
               <div id="image4"></div>
-
               <h2>Firewall</h2>
               <p>
                 <a className="button button--darken" href="#">
@@ -115,7 +154,6 @@ const imageModal2 = () =>{
 
             <div className="col-lg-4">
               <div id="image6"></div>
-
               <h2>Servidores</h2>
               <p>
                 <a className="button button--darken" href="#">
@@ -153,14 +191,14 @@ const imageModal2 = () =>{
                     </button>
                   </li>
                   
-                  <li id="contentInfo02" className="services-panel__item">
+                  <li id="contentInfo02"  className= {imageModal2 ? 'services-panel__item active' :"services-panel__item"}>
                   <button onClick={imageModal2}>
                     <img loading="lazy" className="image" src="imagenes/comunications@6x.png"  alt="Ciberseguridad" data-target="#contentInfo02Modal" ></img>
                     <span className="services-panel__name">Ciberseguridad</span>
                     </button>
                   </li>    
                   
-                  <li id="contentInfo03" className="services-panel__item">
+                  <li id="contentInfo03"  className= {imageModal3 ? 'services-panel__item active' :"services-panel__item"}>
                   <button onClick={imageModal3}>
                     <img loading="lazy" className="image" src="imagenes/oracle@6x.png" aria-hidden="true" alt="Optimización TI" data-target="#contentInfo03Modal">
                     </img>
@@ -168,14 +206,14 @@ const imageModal2 = () =>{
                     </button>
                   </li>    
                   
-                  <li id="contentInfo04" className="services-panel__item">
+                  <li id="contentInfo04"  className= {imageModal4 ? 'services-panel__item active' :"services-panel__item"}>
                   <button onClick={imageModal4}>
                     <img loading="lazy" className="image" src="imagenes/iot@6x.png"   alt="IoT Analytics" data-target="#contentInfo04Modal"></img>
                     <span className="services-panel__name">IoT Analytics</span>
                     </button>
                   </li>    
                   
-                  <li id="contentInfo05" className="services-panel__item">
+                  <li id="contentInfo05"  className= {imageModal5 ? 'services-panel__item active' :"services-panel__item"}>
                   <button onClick={imageModal5}>
                     <img loading="lazy" className="image" src="imagenes/ciber@6x.png"  alt="Comunicaciones Convergentes" data-target="#contentInfo05Modal"></img>
                     <span className="services-panel__name">Comunicaciones Convergentes</span>
@@ -185,8 +223,7 @@ const imageModal2 = () =>{
                   </ul>
                     <div
                       id="contentInfo01Modal"
-                      className="services-panel__content open" >
-
+                       className= {imageModal1 ? 'services-panel__content open' :"services-panel__content--close"}>
                       <div className="row align-items-center">
                         <div className="col-lg-6">
                           <img
@@ -226,8 +263,7 @@ const imageModal2 = () =>{
 
                     <div
                       id="contentInfo02Modal"
-                      className="services-panel__content services-panel__content--close"
-                    >
+                        className= {imageModal2 ? 'services-panel__content--close' :"services-panel__content open"}>
                       <div className="row align-items-center">
                         <div className="col-lg-6">
                           <Image
@@ -266,9 +302,9 @@ const imageModal2 = () =>{
                     </div>
 
                     <div
-                      id="contentInfo03Modal"
-                      className="services-panel__content open services-panel__content--close"
-                    >
+                    id="contentInfo03Modal"
+                    className= {imageModal3 ? 'services-panel__content--close' :"services-panel__content open"}>
+                      
                       <div className="row align-items-center">
                         <div className="col-lg-6">
                           <Image
@@ -308,8 +344,7 @@ const imageModal2 = () =>{
 
                     <div
                       id="contentInfo04Modal"
-                      className="services-panel__content services-panel__content--close"
-                    >
+                      className= {imageModal4 ? 'services-panel__content--close' :"services-panel__content open"}>
                       <div className="row align-items-center">
                         <div className="col-lg-6">
                           <img
@@ -348,9 +383,8 @@ const imageModal2 = () =>{
                     </div>
 
                     <div
-                      id="contentInfo05Modal"
-                      className="services-panel__content services-panel__content--close"
-                    >
+                      id="contentInfo0Modal"
+                      className= {imageModal1 ? 'services-panel__content--close' :"services-panel__content open"}>
                       <div className="row align-items-center">
                         <div className="col-lg-6">
                           <img
@@ -501,7 +535,6 @@ const imageModal2 = () =>{
       </Layout>
     </>
   );
-};
-
+}
 
 export default Index;

@@ -46,7 +46,11 @@ img {
     height: auto;
     vertical-align: top;
     vertical-align: middle;
-    border-style: none;
+    border-style: none  !important;
+    border: 0  !important;
+    display: block  !important;
+    color:white !important;
+    outline: none !important;
   }
 
 @media (max-width:767.98px) {
